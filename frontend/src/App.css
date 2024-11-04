@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+   overflow-x: hidden;
+}
+a{
+    color: hsla(0, 0%, 0%, 0.915);
+    display: block;
+    margin: 2px;
+    text-decoration: none;
+}
+
+.rotate-video {
+    transform: rotate(90deg); /* Adjust the angle as needed */
+  }
+
+  .rotate-video{
+    rotate: 2700deg;
+    display: block;
+    margin: 0 auto;
+  }
+
+  
+  
+  
